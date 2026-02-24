@@ -58357,7 +58357,7 @@ q=3
 l=$.bz().b
 l===$&&A.b()
 s=6
-return A.i(A.Vh(l.gce(),B.b00,"io.supabase.flutter://callback"),$async$H4)
+return A.i(A.Vh(l.gce(),B.b00,"https://darlysson717.github.io/DOMINUSWEB/"),$async$H4)
 case 6:n.aCw()
 o.push(5)
 s=4
