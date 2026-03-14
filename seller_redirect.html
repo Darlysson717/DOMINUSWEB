@@ -118,12 +118,9 @@
           return;
         }
 
-        const packageName = 'com.example.triunvirato_car_marketplace';
         const customSchemeUrl = `dominus://seller/${sellerId}`;
-        const intentUrl = `intent://seller/${sellerId}#Intent;scheme=dominus;package=${packageName};end`;
         const webBaseUrl = 'https://darlysson717.github.io/DOMINUSWEB';
         const browserUrl = `${webBaseUrl}/#/seller/${sellerId}`;
-        const isAndroid = /Android/i.test(navigator.userAgent);
         let didHide = false;
 
         const scheduleFallback = () => {
@@ -137,7 +134,7 @@
         const tryOpenApp = () => {
           didHide = false;
           scheduleFallback();
-          window.location.href = isAndroid ? intentUrl : customSchemeUrl;
+          window.location.href = customSchemeUrl;
         };
 
         document.addEventListener('visibilitychange', () => {
