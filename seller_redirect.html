@@ -128,7 +128,7 @@
             if (!didHide) {
               statusText.textContent = 'App nao encontrado. Abrindo no navegador.';
               webBtn.textContent = 'Continuar no navegador';
-              window.location.href = browserUrl;
+              webBtn.href = browserUrl;
             }
           }, 1400);
         };

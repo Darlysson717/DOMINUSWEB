@@ -298,8 +298,8 @@ const RESOURCES = {".well-known/apple-app-site-association": "4dd04d2fe7c2ebef62
 "/": "268df7d9ee76f7282dfc6397e0923c52",
 "main.dart.js": "8cdb4dab2a2ef094f838767908a737af",
 "manifest.json": "94b6bf64d7cb6fdd4f34460b0858e3c2",
-"seller_redirect.html": "b420834495d0f1f404b73c722f080b42",
-"vehicle_redirect.html": "addcab3e4292ef28fc5c4c398a619757",
+"seller_redirect.html": "3a3287a65acb246ed66215dd8dca3521",
+"vehicle_redirect.html": "72381b5b79ae8d5e6a7cb6d23d084093",
 "version.json": "9684572905232ddba2448e177bea26f4"};
 // The application shell files that are downloaded before a service worker can
 // start.
