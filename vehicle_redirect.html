@@ -126,6 +126,8 @@
         const scheduleFallback = () => {
           setTimeout(() => {
             if (!didHide) {
+              statusText.textContent = "App nao encontrado. Abrindo no navegador.";
+              webBtn.textContent = "Continuar no navegador";
               window.location.href = browserUrl;
             }
           }, 1400);
